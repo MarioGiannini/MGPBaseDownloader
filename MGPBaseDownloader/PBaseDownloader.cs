@@ -5,7 +5,7 @@ using System.Net;
 using Microsoft.Win32;
 using HtmlAgilityPack;
 /*
- Copyright 2019 Mario Giannini
+ Copyright 2019 Mario Giannini 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
 and associated documentation files (the "Software"), to deal in the Software without restriction, 
@@ -100,7 +100,7 @@ namespace MGPBaseDownloader
 
         public void SetPaths(String aSourceURL, String aDestinationFolder)
         {
-            fSourceURL = aSourceURL;
+            fSourceURL = aSourceURL.Replace( "www.pbase.com", "pbase.com" ); // 2019-10-27: Remove 'www' from url because pbase.com does (important for ParseURLEx logic later)
             fDestinationFolder = aDestinationFolder;
             if (!fDestinationFolder.EndsWith("\\"))
                 fDestinationFolder += "\\";
