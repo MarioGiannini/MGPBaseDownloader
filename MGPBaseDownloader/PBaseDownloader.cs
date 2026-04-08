@@ -159,6 +159,10 @@ namespace MGPBaseDownloader
             using (WebClient Client = new WebClient()) // IDisposable
             {
                 url = URLAppend(url, "page=all");
+                // Update 2026-04-08 - Rely on more modern security (without upgrading .Net version
+                // 12288 is the integer value for TLS 1.3
+                System.Net.ServicePointManager.SecurityProtocol = (SecurityProtocolType)12288 | SecurityProtocolType.Tls12;
+
                 String Page = Client.DownloadString(url);
                 HtmlAgilityPack.HtmlDocument Doc = new HtmlAgilityPack.HtmlDocument();
                 Doc.LoadHtml(Page);
