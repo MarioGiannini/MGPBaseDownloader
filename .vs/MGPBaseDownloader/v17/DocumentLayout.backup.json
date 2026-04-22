@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Mario\\Downloads\\dl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|d:\\users\\mario\\downloads\\dl\\mgpbasedownloader\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|solutionrelative:mgpbasedownloader\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|d:\\users\\mario\\downloads\\dl\\mgpbasedownloader\\pbasedownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|solutionrelative:mgpbasedownloader\\pbasedownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|d:\\users\\mario\\downloads\\dl\\mgpbasedownloader\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|solutionrelative:mgpbasedownloader\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|d:\\users\\mario\\downloads\\dl\\mgpbasedownloader\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|solutionrelative:mgpbasedownloader\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|d:\\users\\mario\\downloads\\dl\\mgpbasedownloader\\formmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{D266FE15-B287-42DA-911F-9933548A0AC0}|MGPBaseDownloader\\MGPBaseDownloader.csproj|solutionrelative:mgpbasedownloader\\formmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PBaseDownloader.cs",
+              "DocumentMoniker": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\PBaseDownloader.cs",
+              "RelativeDocumentMoniker": "MGPBaseDownloader\\PBaseDownloader.cs",
+              "ToolTip": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\PBaseDownloader.cs",
+              "RelativeToolTip": "MGPBaseDownloader\\PBaseDownloader.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAPkAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:05:32.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formMain.cs",
+              "DocumentMoniker": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\formMain.cs",
+              "RelativeDocumentMoniker": "MGPBaseDownloader\\formMain.cs",
+              "ToolTip": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\formMain.cs*",
+              "RelativeToolTip": "MGPBaseDownloader\\formMain.cs*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAWwEgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:05:25.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formMain.cs [Design]",
+              "DocumentMoniker": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\formMain.cs",
+              "RelativeDocumentMoniker": "MGPBaseDownloader\\formMain.cs",
+              "ToolTip": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\formMain.cs [Design]*",
+              "RelativeToolTip": "MGPBaseDownloader\\formMain.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:01:57.743Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formMain.resx",
+              "DocumentMoniker": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\formMain.resx",
+              "RelativeDocumentMoniker": "MGPBaseDownloader\\formMain.resx",
+              "ToolTip": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\formMain.resx",
+              "RelativeToolTip": "MGPBaseDownloader\\formMain.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-04-20T15:01:52.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formMain.Designer.cs",
+              "DocumentMoniker": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\formMain.Designer.cs",
+              "RelativeDocumentMoniker": "MGPBaseDownloader\\formMain.Designer.cs",
+              "ToolTip": "D:\\Users\\Mario\\Downloads\\dl\\MGPBaseDownloader\\formMain.Designer.cs",
+              "RelativeToolTip": "MGPBaseDownloader\\formMain.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwM0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:01:46.996Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

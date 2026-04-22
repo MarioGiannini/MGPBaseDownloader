@@ -70,7 +70,7 @@ namespace MGPBaseDownloader
                 tbDestFolder.Enabled = false;
                 btnPickFolder.Enabled = false;
 
-                DownLoader.ProcessUrl (lblStatus, tbResults);
+                DownLoader.ProcessUrl ( cbPrefix.Checked, cbStripQuotes.Checked, cbReplaceSpaces.Checked, lblStatus, tbResults);
 
                 btnGo.Text = "Go";
                 tbURL.Enabled = true;

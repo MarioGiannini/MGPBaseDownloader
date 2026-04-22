@@ -1,0 +1,14 @@
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\obj\Debug\MGPBaseDownloader.csproj.AssemblyReference.cache
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\obj\Debug\MGPBaseDownloader.formMain.resources
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\obj\Debug\MGPBaseDownloader.Properties.Resources.resources
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\obj\Debug\MGPBaseDownloader.csproj.GenerateResource.cache
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\obj\Debug\MGPBaseDownloader.csproj.CoreCompileInputs.cache
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\bin\Debug\MGPBaseDownloader.exe.config
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\bin\Debug\MGPBaseDownloader.exe
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\bin\Debug\MGPBaseDownloader.pdb
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\bin\Debug\HtmlAgilityPack.dll
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\bin\Debug\HtmlAgilityPack.pdb
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\bin\Debug\HtmlAgilityPack.xml
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\obj\Debug\MGPBaseD.B8CC196F.Up2Date
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\obj\Debug\MGPBaseDownloader.exe
+D:\Users\Mario\Downloads\dl\MGPBaseDownloader\obj\Debug\MGPBaseDownloader.pdb

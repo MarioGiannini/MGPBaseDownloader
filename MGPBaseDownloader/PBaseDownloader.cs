@@ -146,7 +146,7 @@ namespace MGPBaseDownloader
         }
 
 
-        public void ProcessUrlEx(int Level, String DestFolder, String url, Label Status, TextBox Results) // Recursive processing of a URL
+        public void ProcessUrlEx(int Level, String DestFolder, String url, bool PrefixFolders, bool StripQuotes, bool ReplaceSpaces, Label Status, TextBox Results) // Recursive processing of a URL
         {
             String ItemName, ItemImage, ItemLink;
             int ItemIndex = 0;
@@ -178,7 +178,22 @@ namespace MGPBaseDownloader
                     foreach (HtmlNode Node in ItemNodes)
                     {
                         ItemIndex++;
-                        ItemName = FilenameSafe( ItemIndex.ToString("D3") + "-" + ExtractString( Node.InnerHtml, "alt=") ); // force 3-digit prefix to maintian order
+                        if (PrefixFolders)
+                        {
+                            ItemName = FilenameSafe(ItemIndex.ToString("D3") + "-" + ExtractString(Node.InnerHtml, "alt=")); // force 3-digit prefix to maintian order
+                        }
+                        else
+                        {
+                            ItemName = FilenameSafe( ExtractString(Node.InnerHtml, "alt=")); // force 3-digit prefix to maintian order
+                        }
+                        if (StripQuotes)
+                        {
+                            ItemName = ItemName.Replace("'", "").Replace("\"", "");
+                        }
+                        if( ReplaceSpaces)
+                        {
+                            ItemName = ItemName.Replace(" ", "_");
+                        }
                         ItemImage = ExtractString( Node.InnerHtml, "src=");
                         ItemLink = ExtractString( Node.InnerHtml, "href=");
 
@@ -232,7 +247,7 @@ namespace MGPBaseDownloader
                                 Directory.CreateDirectory(DestFolder + ItemName);
                             Client.DownloadFile( ItemImage, DestFolder + ItemName + "/Thumbnail.jpg");
                             fProcessedFolders++;
-                            ProcessUrlEx(Level + 1, DestFolder + ItemName + '\\', ItemLink, Status, Results);
+                            ProcessUrlEx(Level + 1, DestFolder + ItemName + '\\', ItemLink, PrefixFolders, StripQuotes, ReplaceSpaces, Status, Results);
                         }
                         
                         fProcessedItems++;
@@ -243,7 +258,7 @@ namespace MGPBaseDownloader
             }
         }
 
-        public Boolean ProcessUrl( Label Status, TextBox Results )  // Setup, call recursive search, and report final details
+        public Boolean ProcessUrl( bool PrefixFolders, bool StripQuotes, bool ReplaceSpaces, Label Status, TextBox Results )  // Setup, call recursive search, and report final details
         {
             String url = SourceURL;
             fTotalItems = 0;
@@ -258,7 +273,7 @@ namespace MGPBaseDownloader
 
             try
             { 
-                ProcessUrlEx(0, this.fDestinationFolder, url, Status, Results);
+                ProcessUrlEx(0, this.fDestinationFolder, url, PrefixFolders, StripQuotes, ReplaceSpaces, Status, Results);
             }
             catch ( Exception Ex )
             {
